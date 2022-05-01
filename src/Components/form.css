@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap");
+
+#parent-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#child-container {
+  padding: 48px 40px 36px;
+  background-color: white;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+}
+p {
+  color: red;
+  margin: 0px;
+  font-size: 12px;
+}
+#main-heading {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin: 16px 0 0 0;
+}
+#input-field {
+  border-radius: 4px;
+  border: 1.5px solid #e0e0e0;
+  outline: none;
+  font-size: 14px;
+  height: 20px;
+  padding: 6px 8px;
+  margin-right: 8px;
+}
+
+#input-field-email {
+  border-radius: 4px 0 0 4px;
+  border: 1.5px solid #e0e0e0;
+  outline: none;
+  font-size: 14px;
+  height: 20px;
+  padding: 7px 9px;
+  width: 100%;
+  border-right: 0px;
+}
+#username {
+  display: flex;
+  padding-top: 24px;
+}
+#usernamebtn {
+  background-color: white;
+  border-radius: 0 4px 4px 0px;
+  border: 1.7px solid #e0e0e0;
+  padding: 8px 9px;
+  font-size: 14px;
+  font-family: "Roboto", Arial, sans-serif;
+  border-left: 0px;
+}
+#name {
+  display: flex;
+  padding-top: 24px;
+}
+a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+#location {
+  padding: 12px 0px;
+}
+#check {
+  margin: 0px;
+  border: 2px solid black;
+}
+#show-pass {
+  font-size: 14px;
+  color: #202124;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+}
+#checkbox {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 26px;
+  padding-bottom: 20px;
+}
+#next {
+  font-size: 14px;
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 4px;
+}
+#side-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-left: 48px;
+}
+#side-text {
+  line-height: 1.4286;
+}
+#err {
+  display: flex;
+  flex-direction: column;
+}
+#result {
+  padding: 12px 12px;
+  margin-left: 50px;
+  background-color: white;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#submit-data {
+  font-size: 16px;
+  color: black;
+  
+}
